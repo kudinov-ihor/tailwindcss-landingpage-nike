@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { star } from '../assets/icons'
 
 const PopularProductCard = ({imgURL, name, price}) => {
